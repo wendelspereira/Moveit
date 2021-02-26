@@ -38,3 +38,71 @@
 .challengeBoxNotActive p img{
    padding-bottom: 1.5rem;;
 }
+
+/* .challengeBoxActive{
+   
+} */
+.challengeBoxActive {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.challengeBoxActive header {
+   color: var(--blue);
+   font-size: 1.5rem;
+   font-weight: 600;
+   padding: 0 2rem 1.5rem;
+   border-bottom: 1px solid var(--gray-line);
+}
+
+.challengeBoxActive main {
+   display: flex;
+   flex: 1;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.challengeBoxActive main strong {
+   font-size: 2rem;
+   font-weight:600;
+   color: var(--title);
+   margin: 1.5rem 0 1rem;
+}
+
+.challengeBoxActive main p {
+   line-height: 1.5;
+}
+
+.challengeBoxActive footer {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.challengeBoxActive footer button {
+   width: 10.875rem;
+   height: 3.125rem;
+   border-radius: 5px;
+   border: none;
+   font-size: 1rem;
+   font-weight: 600;
+   transition: filter 0.2s;
+}
+
+.challengeFailedButton {
+   color: white;
+   background: var(--red);
+   margin-right: 0.25rem;
+}
+
+.challengeSuccessButton {
+   color: white;
+   background: var(--green);
+   margin-left: 0 .25rem;
+}
+
+.challengeBoxActive footer button:hover {
+   filter:brightness(0.9)
+}
+
