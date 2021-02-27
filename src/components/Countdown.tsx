@@ -30,7 +30,7 @@ export function Countdown() {
         } else if (isActive && time === 0) {
             setHasFinished(true)
             setIsActive(false)
-            startNewChallenge()
+            startNewChallenge()            
         }
     }, [isActive, time])
 
@@ -40,6 +40,7 @@ export function Countdown() {
         setTime(.05 * 60)
     }
 
+    
     return (
         <div>
             <div className={styles.countdownContainer}>
@@ -65,6 +66,7 @@ export function Countdown() {
                     <>
                         { isActive ? (
                             <button type="button"
+                                
                                 onClick={resetCountdown}
                                 className={`${styles.countdownButton} ${styles.countdownButtonActive}`}>
                                 Abandonar um ciclo
