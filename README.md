@@ -6,6 +6,7 @@
 Melhorias na Aplicação Desenvolvido no </br>
 NLW#4 da RocketSeat
 </h1>
+<p align="center">
 
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wendelspereira/moveit">
 
@@ -20,13 +21,12 @@ NLW#4 da RocketSeat
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=blue">
+</p>
 
 <p align="center">
-
   <a target="_blank" href="https://reactjs.org/">
     <img alt="ReactJS" src="https://img.shields.io/static/v1?color=blue&label=React&message=JS&?style=plastic&logo=React">
   </a>
-
   <a target="_blank" href="https://nextjs.org/">
       <img alt="NextJS" src="https://img.shields.io/static/v1?color=white&label=Next&message=JS&?style=plastic&logo=Next.js">
   </a>
@@ -182,7 +182,7 @@ $ yarn dev
 
 > Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions)
 
-## 📝 Licença
+## Licença
 
 Este projeto esta sob a licença MIT. Veja a [LICENÇA](https://opensource.org/licenses/MIT) para saber mais.
 
