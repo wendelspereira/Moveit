@@ -37,7 +37,7 @@ export function ChallengesProvider({ children }) {
 
         const { amount } = activeChallenge
         const newExperience = currentExperience + amount
-        let experienceForNextLevel
+        let experienceForNextLevel: number
 
         if (newExperience >= experienceToNextLevel) {
             levelUp()

@@ -3,12 +3,13 @@ import { ChallengesContext } from '../contexts/ChallengeContext'
 import styles from '../styles/components/Countdown.module.css'
 
 let countdownTimeOut: NodeJS.Timeout
+const COUNTDOWN_TIME = 0.05
 
 export function Countdown() {
 
     const {startNewChallenge} = useContext(ChallengesContext)
 
-    const [time, setTime] = useState(.05 * 60)
+    const [time, setTime] = useState(COUNTDOWN_TIME * 60)
     const [isActive, setIsActive] = useState(false)
     const [hasFinished, setHasFinished] = useState(false)
 
@@ -37,7 +38,7 @@ export function Countdown() {
     function resetCountdown() {
         clearTimeout(countdownTimeOut)
         setIsActive(false)
-        setTime(.05 * 60)
+        setTime(COUNTDOWN_TIME * 60)
     }
 
     
@@ -66,7 +67,6 @@ export function Countdown() {
                     <>
                         { isActive ? (
                             <button type="button"
-                                
                                 onClick={resetCountdown}
                                 className={`${styles.countdownButton} ${styles.countdownButtonActive}`}>
                                 Abandonar um ciclo
