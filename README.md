@@ -1,5 +1,5 @@
 <p align="center">
-  <img  alt="MoveIt Logo" title="MoveIt" src=".github/readme/logo-full.svg" />
+  <img  alt="MoveIt Logo" title="Moveit" src=".github/readme/logo-full.svg" >
 </p>
 
 <h1 align="center">
@@ -7,24 +7,19 @@ Melhorias na Aplicação Desenvolvido no </br>
 NLW#4 da RocketSeat
 </h1>
 
-<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wendelspereira/moveit">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Alquipo/moveit">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wendelspereira/moveit">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Alquipo/moveit">
-
-  <a href="https://www.linkedin.com/in/alquiponeto/">
-      <img alt="Made by Alquipo" src="https://img.shields.io/badge/made%20by-AlquipoNeto-blue">
+  <a href="https://www.linkedin.com/in/wendelspereiraneto/">
+      <img alt="Made by Wendel S. Pereira" src="https://img.shields.io/badge/made%20by-Wendel%20S.%20Pereira-blue">
   </a>
 
-  <a href="https://github.com/Alquipo/moveit/commits/master">
-      <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Alquipo/moveit?color=blue">
+  <a href="https://github.com/wendelspereira/moveit/commits/master">
+      <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/wendelspereira/moveit?color=blue">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=blue">
-
-<img alt="CI Workflow" src="https://github.com/Alquipo/moveit/workflows/ci/badge.svg?color=blue">
-</p>
 
 <p align="center">
 
@@ -41,21 +36,17 @@ NLW#4 da RocketSeat
   Seja bem-vindo ao Moveit
 </h1>
 
-<!--
-
-## :information_source: O que é Next Level Week?
+## O que é Next Level Week?
 
 O [NLW](https://nextlevelweek.com/inscricao/1) é uma semana prática com muito código, desafios, network e com um único objetivo: levá-lo ao próximo nível.
 Através do método da [Rocketseat](https://nextlevelweek.com/inscricao/1), você aprenderá novas ferramentas, tecnologias e descobrirá hacks que irão impulsionar sua carreira.
 Um evento online e totalmente gratuito que o ajudará a dar o próximo passo na sua evolução como desenvolvedor.
--->
 
 ## Sobre o Projeto
 
 Moveit é uma ferramenta desenvolvida para auxiliar no uso da técnica Pomodoro.
 Essa técnica foi desenvolvida no final dos anos 80 pelo italiano Francesco Cirillo, que procurava uma maneira de aumentar sua produtividade. A técnica consiste em intervalos de trabalho focado de vinte e cinco minutos intercalados por pausas de cinco minutos de descanso. Após quatro clícos deve ser feita uma pausa maior entre quinze e trinta minutos. Por meio dessa técnica, segundo os estudos, pode-se conseguir um aumento na considerável na produtividade duranre a excussão das tarefas.
 Essa ferramenta pode ser usada diariamente de forma simples através de sua página web. Em suas próximas verssões será relacionar as atividades com os cíclos e acompanhar a evolução de sua produtividade.
-
 
 ## Layout
 
@@ -72,7 +63,13 @@ Design feito por [Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg/
 ### Web
 
 <h4 align="center">
-  <img alt="Home" title="Home" src=".github/readme/home.png" width="700px" />
+  <img alt="Home" title="Home" src=".github/readme/home.png" width="700px" >
+</h4>
+<h4 align="center">
+  <img alt="Home" title="Countdown" src=".github/readme/countdown.png" width="700px">
+</h4>
+<h4 align="center">
+  <img alt="Home" title="Challeng" src=".github/readme/challeng.png" width="700px" >
 </h4>
 <!--
 #### Theme Dark
@@ -108,9 +105,8 @@ Design feito por [Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg/
 
 <br/> -->
 
-
-
 ## Melhorias a serem feitas
+
     -Adicionar api serverless na aplicação;
     -Adicionar autenticação com github via Auth0;
     -Adicionar Firebase para efetuar autenticação;
@@ -125,35 +121,18 @@ Design feito por [Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg/
     -Adicionar compartilhar com Redes Sociais
     -Concluir os testes
 
-## Tecnologias:
+## Tecnologias
 
 - **[TypeScript](https://www.typescriptlang.org/)**
 - **[NextJS](https://nextjs.org/)**
 - **[Eslint](https://eslint.org/)**
 - **[Prettier](https://prettier.io/)**
-<!-- - **[Firebase](https://firebase.google.com/?hl=pt-br)** -->
-<!-- - **[Mongodb](https://www.mongodb.com/)** -->
-<!-- - **[Axios](https://github.com/axios/axios)** -->
-<!-- - **[Styled Components](https://styled-components.com/)** -->
-<!-- - **[Jest](https://jestjs.io/)** -->
-<!-- - **[React Testing Library](https://testing-library.com/docs/react-testing-library/intro)** -->
-<!-- - **[Storybook](https://storybook.js.org/)** -->
-<!-- - **[Husky](https://github.com/typicode/husky)** -->
-<!-- - **[PlopJS](https://plopjs.com/)** -->
-<!-- - **[Polished](https://polished.js.org/)** -->
-<!-- - **[Styled-Icons](https://styled-icons.js.org/)** -->
 
 ## Comandos
 
 - `dev`: Executa a aplicação em `localhost:3000`
 - `build`: Cria a Build do projeto
 - `start`: Inicia um servidor simples com o código de produção
-<!-- - `lint`: Executa o **Linter** em todos os componentes e páginas
-- `test`: Executa **Jest** para testar todos os componentes e páginas
-- `test:watch`: Executa **Jest** em watch mode
-- `storybook`: Executa **Storybook** em `localhost:6006`
-- `build-storybook`: Cria uma build do storybook
-- `generate`: Cria automaticamente um componente -->
 
 ## Como executar este projeto
 
@@ -181,44 +160,18 @@ $ npm run dev
 $ yarn dev
 
 # Acesse http://localhost:3000
-
 ```
+<!-- ### 📁 Configuração .ENV
 
-<!-- ### 💾 Comandos Úteis
-
-```bash
-#Criação de um componente completo com (index.tsx / stories.tsx / styles.ts / test.tsx)
-$ yarn generate ComponentName
-
-#Rodar o Storybook
-$ yarn storybook
-
-#Rodar os testes
-$ yarn test
-
-``` -->
-
-<!-- ### 📁 Configuração .ENV -->
-<!--
 ```bash
 #adicionado .env.example no projeto, lembrar de adicionar as variáveis de ambiente conforme o exemplo
 
-# FIREBASE
-NEXT_PUBLIC_APIKEY=
-NEXT_PUBLIC_AUTHDOMAIN=
-NEXT_PUBLIC_PROJECTID=
-NEXT_PUBLIC_STORAGEBUCKET=
-NEXT_PUBLIC_MESSAGINGSENDERID=
-NEXT_PUBLIC_APPID=
-NEXT_PUBLIC_MEASUREMENTID=
-
 # MONGODB
-MONGODB_URI=
 
 # API URLS
-BASE_URL=
 
-``` -->
+``` 
+-->
 
 ## Como contribuir para o projeto
 
